@@ -66,11 +66,11 @@ def insert_test_data():
                 platform_id=random.randint(1, 3),
                 placement_id=random.randint(1, 3),
                 device_type_id=random.randint(1, 3),
-                impressions=random.randint(500, 5000),  # Random impressions between 500 and 5000
-                clicks=random.randint(10, 200),         # Random clicks between 10 and 200
-                cost=round(random.uniform(5.0, 100.0), 2),  # Random cost between 5 and 100
-                conversions=random.randint(1, 50),      # Random conversions between 1 and 50
-                likes=random.randint(10, 300)           # Random likes between 10 and 300
+                impressions=random.randint(500, 5000),  
+                clicks=random.randint(10, 200),        
+                cost=round(random.uniform(5.0, 100.0), 2),  
+                conversions=random.randint(1, 50),      
+                likes=random.randint(10, 300)           
             ))
         db.add_all(fact_data)
 
@@ -84,5 +84,3 @@ def insert_test_data():
     finally:
         db.close()
 
-if __name__ == "__main__":
-    insert_test_data()

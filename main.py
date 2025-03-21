@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from core.database import Base, engine
 from apps.api.urls import router as api_router  # Import from urls.py
 from apps.cron.tasks import setup_cron_jobs
+from insert_100_test_data import insert_test_data
 
 app = FastAPI(title="Ad Metrics API")
 
@@ -18,4 +19,5 @@ async def startup_event():
 
 if __name__ == "__main__":
     import uvicorn
+    insert_test_data()
     uvicorn.run(app, host="0.0.0.0", port=8000)
