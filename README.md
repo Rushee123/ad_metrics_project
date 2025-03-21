@@ -8,7 +8,7 @@ The **PROJECT** is a FastAPI-based application designed to evaluate a candidate'
 
 ## Project Structure
 ```
-FAST_API_PROJECT/
+ad_metrics_project/
 ├── apps/
 │   ├── api/              # API endpoints, routes, and schemas
 │   │   ├── __init__.py
@@ -40,12 +40,12 @@ FAST_API_PROJECT/
 ### 1. Clone or Download the Project
 If the project is hosted on a Git repository:
 ```sh
-git clone <repository-url>
-cd FAST_API_PROJECT
+git clone https://github.com/Rushee123/ad_metrics_project.git
+cd ad_metrics_project
 ```
 Alternatively, download and extract the project files manually, then navigate to the root directory:
 ```sh
-cd FAST_API_PROJECT
+cd ad_metrics_project
 ```
 
 ### 2. Set Up a Virtual Environment
