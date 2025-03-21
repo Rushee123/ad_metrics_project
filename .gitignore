@@ -1,5 +1,4 @@
 fast_env
 __pycache__/
 *.pyc
-ad_metrics.db
 cron.log
