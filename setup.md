@@ -1,6 +1,5 @@
 # Project Overview
-The **PROJECT** is a FastAPI-based application designed to evaluate a candidate's ability to validate data and implement cron jobs, as per the Backend Developer (Python FastAPI) assignment. It provides a **GET** endpoint to retrieve advertising metrics with flexible filtering and a **cron job** that logs timestamps every 6 hours. The project uses **SQLite** as the database and follows a **Django-like structure**.
-
+The **PROJECT** is a FastAPI-based application designed to evaluate a candidate's ability to validate data and implement cron jobs, as per the Backend Developer (Python FastAPI) assignment. It provides a **GET** endpoint to retrieve advertising metrics with flexible filtering and a **cron job** that logs timestamps every 6 hours. The project uses **SQLite** as the database.
 ## Features
 - **FastAPI Service:** A `GET /api/v1/ad-metrics/` endpoint with Pydantic-validated query parameters.
 - **Database:** SQLite with SQLAlchemy models for ad metrics and dimension tables.
